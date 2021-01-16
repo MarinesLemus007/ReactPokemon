@@ -19,6 +19,7 @@ class PokeInicio extends Component {
             Learn React
           </a>
         </header>
+        <button>Ir a</button>
       </div>
     );
   }

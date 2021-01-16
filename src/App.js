@@ -1,15 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
-import PokeApp from "./componentes/PokeApp";
-import PokeInicio from "./componentes/PokeInicio";
+import Rutas from "./Rutas";
 
 class App extends Component {
   render() {
     return (
-      <>
-        <PokeInicio />
-        <PokeApp />
-      </>
+      <Rutas/>
     );
   }
 }

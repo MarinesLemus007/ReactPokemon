@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 import logo from "../img-pokemon.png";
 
 class PokeInicio extends Component {
@@ -19,7 +20,7 @@ class PokeInicio extends Component {
             Learn React
           </a>
         </header>
-        <button>Ir a</button>
+        <Link to="/pokemons">Ir a</Link>
       </div>
     );
   }

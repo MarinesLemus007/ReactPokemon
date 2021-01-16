@@ -13,6 +13,7 @@ componentDidMount(){
     .then(res =>{
         const pokeData = res.data.results;
         console.log(pokeData)
+        
         this.setState({
             pokeData
         });

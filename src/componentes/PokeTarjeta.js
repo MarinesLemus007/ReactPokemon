@@ -1,10 +1,11 @@
 import React from "react";
 
-const PokeTarjeta = (props) =>{
+function PokeTarjeta({pokedata}){
     return (
         <div>
-            <h3>Personaje</h3>
-            <p>Tipo</p>
+            {pokedata.map((pokemon, index) =>{
+                return <><h3 key={index}>{pokemon.name}</h3><p>{pokemon.url}</p></>
+            })}
         </div>
     );
 }
